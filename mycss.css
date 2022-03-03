@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Righteous&display=swap');
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+}
+
+header {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Righteous", cursive;
+  color:wheat;
+}
+
+.navbar {
+  font-family: 'Bungee Inline', cursive;
+  color: white;
+
+}
+
+.navbar li, a {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+
+
+#logo{
+  margin-right: auto;
+}

@@ -4,15 +4,15 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252A;
 }
 
 header {
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
+  position: relative;
+  top:0;
+  margin: 0;
   font-family: "Righteous", cursive;
   color:wheat;
+  background-color: aqua;
 }
 
 .navbar {
@@ -29,12 +29,11 @@ header {
 }
 
 
-ul{
-  list-style-type: none;
+div{
+  display: inline;
+  float: right;
 }
 
-
-
 #logo{
-  margin-right: auto;
+border: 2px solid red;
 }
